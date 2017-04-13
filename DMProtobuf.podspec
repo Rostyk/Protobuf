@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.description  = 'Static library with protobud utilities'
   s.homepage = 'https://darkmatter.ae'
   s.author       = 'Google'
-  s.source   = { :git => 'https://github.com/Rostyk/Protobuf.git'}
+  s.source   = { :git => 'https://github.com/Rostyk/Protobuf.git', :tag => s.version.to_s }
   s.preserve_paths = '*.a'
   s.libraries = 'protobuf'
   s.xcconfig     =  { 'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/DMProtobuf"' }
