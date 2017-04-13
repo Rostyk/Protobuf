@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = 'Google'
   s.source   = { :git => 'https://github.com/Rostyk/Protobuf.git', :tag => s.version.to_s }
   s.preserve_paths = '*.a'
-  s.libraries = 'crypto', 'libprotobuf'
-  s.xcconfig     =  { 'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/DMprotobuf"' }
+  s.libraries = 'protobuf'
+  s.xcconfig     =  { 'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/DMProtobuf"' }
   s.platform = :ios
 end
