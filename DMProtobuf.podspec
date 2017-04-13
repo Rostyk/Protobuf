@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'DMProtobuf'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = 'BSD'
   s.summary  = 'Protobuf for iOS'
   s.description  = 'Static library with protobud utilities'
